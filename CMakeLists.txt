@@ -18,12 +18,14 @@ find_package(Qt6 REQUIRED COMPONENTS QuickWidgets)
 
 set(PROJECT_SOURCES
         main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
-        mainwidget.h
-        mainwidget.cpp
-        mainwidget.ui
+        View/mainwindow.cpp
+        View/mainwindow.h
+        View/mainwindow.ui
+        View/main/mainwidget.h
+        View/main/mainwidget.cpp
+        View/main/mainwidget.ui
+        View/qml/qmlinwidget.h
+        View/qml/qmlinwidget.cpp
         msgprocess.h
         msgprocess.cpp
         Msg/Protocol.h
@@ -32,8 +34,6 @@ set(PROJECT_SOURCES
         Msg/LoopArray.h
         Msg/CMsgParser.h
         Msg/CMsgParser.cpp
-        qmlinwidget.h
-        qmlinwidget.cpp
         dynamicqmlwidget.h
         dynamicqmlwidget.cpp
         Common/CommonFunction.h

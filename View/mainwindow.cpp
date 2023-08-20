@@ -1,8 +1,8 @@
 
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include "mainwidget.h"
-#include "qmlinwidget.h"
+#include "View/main/mainwidget.h"
+#include "View/qml/qmlinwidget.h"
 #include <QTabWidget>
 
 MainWindow::MainWindow(QWidget *parent)

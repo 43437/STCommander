@@ -1,5 +1,5 @@
 
-#include "mainwindow.h"
+#include "View/mainwindow.h"
 #include "Common/CommonFunction.h"
 #include <QApplication>
 #include <QMutex>
