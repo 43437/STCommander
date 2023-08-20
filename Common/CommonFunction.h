@@ -11,6 +11,14 @@ namespace NSCommonFunction {
 
     QString GetAppPath();
     QString GetLogPath();
+
+    bool IsValidMotorDegree(const uint8_t degree);
+
+    template<typename T>
+    QString ToHexStr(const T t)
+    {
+        return QString("%1").arg(t, 2, 16, QChar('0')).last(2);
+    }
 }
 
 #endif // COMMONFUNCTION_H

@@ -26,6 +26,10 @@ set(PROJECT_SOURCES
         View/main/mainwidget.ui
         View/qml/qmlinwidget.h
         View/qml/qmlinwidget.cpp
+        View/robothand/RobotHandWidget.h
+        View/robothand/RobotHandWidget.cpp
+        View/robothand/RobotHandCMDWidget.h
+        View/robothand/RobotHandCMDWidget.cpp
         msgprocess.h
         msgprocess.cpp
         Msg/Protocol.h
